@@ -3,3 +3,11 @@ function spread(value) {
   return newValue;
 }
 console.log(spread([23, 56, 89, 23]));
+
+//
+function studentPayment(name, amount) {
+  let info = ` Hello ${name}!
+Your paid amount is ${amount}`;
+  return info;
+}
+console.log(studentPayment("Ekram", 4500));
