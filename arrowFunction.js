@@ -30,3 +30,5 @@ const info = {
 };
 console.log(info.showName());
 console.log(info.showAge()); //wii give undefined, cause this is not used in arrow.
+
+//hoisting is possible in traditional fumction , but not in arrow function.
