@@ -8,7 +8,17 @@ const info = {
   name: "jasim",
   age: 23,
   location: "USA",
+  device: {
+    laptop: "lenovo",
+    cell: "motorola",
+    watch: "protek",
+  },
 };
-
-const { name, age: boyosh, location } = info;
-console.log(name, boyosh, location);
+const laptopUse = info.device.laptop;
+const {
+  name,
+  age: boyosh,
+  location,
+  device: { laptop, cell, watch },
+} = info;
+console.log(name, boyosh, laptop, location);
