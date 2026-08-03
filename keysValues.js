@@ -5,3 +5,9 @@ const person = {
 };
 console.log(Object.keys(person));
 console.log(Object.values(person));
+
+const entries = Object.entries(person);
+for (let entry of entries) {
+  [key, values] = entry;
+  console.log(key, values);
+}
